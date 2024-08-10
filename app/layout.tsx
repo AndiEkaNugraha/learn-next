@@ -14,7 +14,11 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         <title>Next.js - Learn</title>
       </head>
       {/* Elemen <body> adalah tempat untuk konten utama halaman. Di sini, kita me-render prop 'children'. */}
-      <body>{children}</body>
+      <body>
+        <div>header</div>
+          {children}
+        <div>footer</div>
+      </body>
     </html>
   );
 }
