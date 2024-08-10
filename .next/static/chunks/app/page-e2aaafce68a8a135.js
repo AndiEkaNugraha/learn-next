@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[931],{2975:function(n,e,t){Promise.resolve().then(t.bind(t,6774))},6774:function(n,e,t){"use strict";t.r(e),t.d(e,{default:function(){return r}});var u=t(7437);function r(){return(0,u.jsx)("h1",{children:"Hello, Next.js"})}t(2265)}},function(n){n.O(0,[971,23,744],function(){return n(n.s=2975)}),_N_E=n.O()}]);
