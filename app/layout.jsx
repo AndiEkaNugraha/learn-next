@@ -1,6 +1,6 @@
 // Mengimpor React dari library 'react'. React diperlukan untuk menulis komponen.
 import React from 'react';
-
+import {Navbar, Footer} from '../components';
 // Mendefinisikan fungsi 'RootLayout' yang menerima prop 'children'.
 // 'children' adalah elemen atau komponen yang akan dirender di dalam layout ini.
 export default function RootLayout({ children }) {
@@ -13,10 +13,10 @@ export default function RootLayout({ children }) {
         <title>Next.js - Learn</title>
       </head>
       {/* Elemen <body> adalah tempat untuk konten utama halaman. Di sini, kita me-render prop 'children'. */}
-      <body>\
-        <div>header</div>
+      <body>
+        <Navbar />
           {children}
-        <div>footer</div>
+        <Footer />
       </body>
     </html>
   );
